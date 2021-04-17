@@ -81,7 +81,11 @@ class Test extends Component
 
     public function updatedAmount()
     {
-        $this->getConvertedAmount();
+        if(is_numeric($this->amount)) {
+            $this->getConvertedAmount();
+        } else{
+            $this->converted_amount = '';
+        }
     }
 
     public function getConvertedAmount()
