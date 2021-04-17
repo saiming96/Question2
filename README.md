@@ -18,7 +18,7 @@ Edit '.env' file change APP_URL & Database Connection
 
 Step 4:
 ```sh
-cd Question1
+cd Question2
 composer install
 npm install
 npm run dev
@@ -27,5 +27,3 @@ php artisan migrate
 ```
 
 > Note: Please make sure `APP_URL` is set correctly if the system do not run as expected.
-
-
