@@ -5,7 +5,8 @@
 4. Update '.env' file, change Database Connection.
 5. Run command 'composer install'
 6. Run command 'npm install'
-7. Run command 'php artisan migrate'
+7. Run command 'npm run dev'
+8. Run command 'php artisan migrate'
 
 ##Note:
 If the system do not run as expected, please make sure 'APP_URL' is set correctly
