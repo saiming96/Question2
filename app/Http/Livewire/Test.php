@@ -11,7 +11,7 @@ use Livewire\Component;
 class Test extends Component
 {
     public $domain = 'https://free.currconv.com/api/v7/convert';
-    public $api_key = '31240f3444f0f53f3964';
+    public $api_key;
     public $amount = 1;
     public $converted_amount;
     public $spot_rate = '';
@@ -28,6 +28,7 @@ class Test extends Component
 
     public function mount()
     {
+        $this->api_key = config('currency_converter.api_key');
         foreach ($this->currency_conversion_types as $currency_conversion) {
             if (Currency::where('currency_conversion', $currency_conversion)->whereDate('updated_at', Carbon::today())->count() == 0) {
                 $query = $this->getQuery($currency_conversion);
