@@ -5,6 +5,7 @@ A simple laravel project to get the currency rate for a currency code (e.g. MYR)
 ## Requirements
 - [Laravel] -7.0 or higher
 - [PHP] - 7.4 or higher
+- [mysql] - 5.7.24 or higher
 - [node.js] - 12.13.0 or higher
 
 ## Installation
