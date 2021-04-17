@@ -57,15 +57,11 @@ class Test extends Component
         if ($this->from_usd) {
             $this->currency_from = $this->currency_to;
             $this->currency_to = 'USD';
-
-            //get rate
             $this->getRate();
             $this->from_usd = false;
         } else {
             $this->currency_to = $this->currency_from;
             $this->currency_from = 'USD';
-
-            //get rate
             $this->getRate();
             $this->from_usd = true;
         }
