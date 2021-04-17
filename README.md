@@ -1,6 +1,8 @@
 # laravel-currency-converter
+![screenshots of example app](/screenshot1.jpg)
+
 ## Get currency rate for a current code against USD
-A simple laravel project to get the currency rate for a currency code (e.g. MYR) against USD.
+A simple laravel project to get the currency rate for a currency code (e.g. MYR) against USD using Livewire and TailwindCSS.
 
 ## Requirements
 - [Laravel] -7.0 or higher
