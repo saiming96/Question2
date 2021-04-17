@@ -21,16 +21,31 @@ Step 2:
 Rename '.env.example' to '.env' or Create '.env' file and copy the code from '.env.example' to '.env'
 
 Step 3:
-Edit '.env' file change APP_URL & Database Connection
+Get Free Currency Convertor API Key From `https://free.currencyconverterapi.com/`
 
 Step 4:
+Edit '.env' file change 
+* APP_URL  - APP URL 
+* CURRENCY_CONVERTER_API_KEY - Free Currency Convertor API Key
+* Database Connection
+    * DB_CONNECTION
+    * DB_HOST
+    * DB_PORT
+    * DB_DATABASE
+    * DB_USERNAME
+    * DB_PASSWORD
+
+Step 5:
 ```sh
 cd laravel-currency-converter
 composer install
 npm install
 npm run dev
+php artisan config:clear
 php artisan key:generate
 php artisan migrate
 ```
 
 > Note: Please make sure `APP_URL` is set correctly if the system do not run as expected.
+
+> Note: Please run `php artisan config:clear` after edited .env file 
