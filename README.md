@@ -1,4 +1,4 @@
-# Question2
+# laravel-currency-converter
 ## Get currency rate for a current code against USD
 A simple laravel project to get the currency rate for a currency code (e.g. MYR) against USD.
 
@@ -10,6 +10,10 @@ A simple laravel project to get the currency rate for a currency code (e.g. MYR)
 
 ## Installation
 Step 1: Clone or download the project
+```sh
+# To clone the project clone the project
+git clone https://github.com/saiming96/laravel-currency-converter.git
+```
 
 Step 2: 
 Rename '.env.example' to '.env' or Create '.env' file and copy the code from '.env.example' to '.env'
@@ -19,7 +23,7 @@ Edit '.env' file change APP_URL & Database Connection
 
 Step 4:
 ```sh
-cd Question2
+cd laravel-currency-converter
 composer install
 npm install
 npm run dev
