@@ -1,6 +1,6 @@
-# Question1
-## Convert message into lowercase
-A simple laravel project to convert message of the textbox into lowercase.
+# Question2
+## Get currency rate for a current code against USD
+A simple laravel project to get the currency rate for a currency code (e.g. MYR) against USD.
 
 ## Requirements
 - [Laravel] -7.0 or higher
